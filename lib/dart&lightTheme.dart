@@ -11,9 +11,7 @@ class LightDarkTheme extends StatefulWidget {
 class _LightDarkThemeState extends State<LightDarkTheme> {
   @override
   Widget build(BuildContext context) {
-    return  GetMaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
+    return  Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blue,
           title: const Text("Dark And Light Theme",style: TextStyle(
@@ -120,7 +118,6 @@ class _LightDarkThemeState extends State<LightDarkTheme> {
 
           ],
         ),
-      ),
-    );
+      );
   }
 }

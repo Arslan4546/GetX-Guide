@@ -11,9 +11,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
+    return  Scaffold(
           appBar: AppBar(
             backgroundColor: Colors.blue,
             title: const Text("SnackBar Practice",style: TextStyle(
@@ -43,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
                 );
               },
-                 child:  const Icon(Icons.add,color: Colors.white,))),
-    );
+                 child:  const Icon(Icons.add,color: Colors.white,)));
+
   }
 }
