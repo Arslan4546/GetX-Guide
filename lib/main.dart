@@ -2,10 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:getxdemo/expampletwo/TestingScreen.dart';
+import 'package:getxdemo/favoritePractice/homeScreen.dart';
 
-import 'package:getxdemo/height&width.dart';
+import 'package:getxdemo/height&widthPractice/height&width.dart';
 import 'IntroStateManagement/home.dart';
-import 'dart&lightTheme.dart';
+import 'ThemePractice/dart&lightTheme.dart';
+import 'exampleThree/testScreen.dart';
+import 'imagePickerPractice/homeScreen.dart';
 import 'navigations&routes/screen1.dart';
 import 'navigations&routes/screen2.dart';
 
@@ -29,7 +32,7 @@ class _MyAppState extends State<MyApp> {
       // locale: const Locale("en", "US"),
       // fallbackLocale: const Locale("en", "US"),
       // translations: Languages(),
-      home:   Testingscreen(),
+      home:   home1(),
       // getPages: [
       //   GetPage(name: "/S1", page:() => const Screen1()),
       //   GetPage(name: "/S2", page:() => Screen2()),
