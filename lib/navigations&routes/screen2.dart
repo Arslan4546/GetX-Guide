@@ -21,7 +21,7 @@ class _Screen2State extends State<Screen2> {
         //     color: Colors.white,
         //     fontWeight: FontWeight.bold
         // ),),
-        title:  Text('Screen 2 ' + Get.arguments[0]  ,style: TextStyle(
+        title:  Text('Screen 2 ' + Get.arguments[0]  ,style: const TextStyle(
           color: Colors.white,
           fontWeight: FontWeight.bold,
         ),),
