@@ -5,6 +5,7 @@ import 'package:getxdemo/expampletwo/TestingScreen.dart';
 import 'package:getxdemo/favoritePractice/homeScreen.dart';
 
 import 'package:getxdemo/height&widthPractice/height&width.dart';
+import 'package:getxdemo/loginApiPractice/mainScreen.dart';
 import 'IntroStateManagement/home.dart';
 import 'ThemePractice/dart&lightTheme.dart';
 import 'exampleThree/testScreen.dart';
@@ -32,7 +33,7 @@ class _MyAppState extends State<MyApp> {
       // locale: const Locale("en", "US"),
       // fallbackLocale: const Locale("en", "US"),
       // translations: Languages(),
-      home:   home1(),
+      home:   mainScreen(),
       // getPages: [
       //   GetPage(name: "/S1", page:() => const Screen1()),
       //   GetPage(name: "/S2", page:() => Screen2()),
