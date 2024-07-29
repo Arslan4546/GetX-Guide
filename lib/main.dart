@@ -10,6 +10,7 @@ import 'IntroStateManagement/home.dart';
 import 'ThemePractice/dart&lightTheme.dart';
 import 'exampleThree/testScreen.dart';
 import 'imagePickerPractice/homeScreen.dart';
+import 'mvvm_practice/view/splash_screen.dart';
 import 'navigations&routes/screen1.dart';
 import 'navigations&routes/screen2.dart';
 
@@ -33,7 +34,7 @@ class _MyAppState extends State<MyApp> {
       // locale: const Locale("en", "US"),
       // fallbackLocale: const Locale("en", "US"),
       // translations: Languages(),
-      home:   mainScreen(),
+      home:   SplashScreen(),
       // getPages: [
       //   GetPage(name: "/S1", page:() => const Screen1()),
       //   GetPage(name: "/S2", page:() => Screen2()),
