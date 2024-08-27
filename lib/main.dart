@@ -10,6 +10,7 @@ import 'IntroStateManagement/home.dart';
 import 'ThemePractice/dart&lightTheme.dart';
 import 'exampleThree/testScreen.dart';
 import 'imagePickerPractice/homeScreen.dart';
+import 'mvvm_practice/resources/localization/translations.dart';
 import 'mvvm_practice/resources/routes.dart';
 import 'mvvm_practice/view/splash_screen.dart';
 import 'navigations&routes/screen1.dart';
@@ -32,9 +33,10 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return    GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      // locale: const Locale("en", "US"),
-      // fallbackLocale: const Locale("en", "US"),
-      // translations: Languages(),
+      //locale: const Locale("en", "US"),
+      locale: const Locale("ur", "PK"),
+      fallbackLocale: const Locale("en", "US"),
+      translations: Translate(),
       home:   SplashScreen(),
       // getPages: [
       //   GetPage(name: "/S1", page:() => const Screen1()),

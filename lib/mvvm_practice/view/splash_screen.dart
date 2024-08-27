@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:getxdemo/mvvm_practice/data/exceptions.dart';
+import 'package:getxdemo/mvvm_practice/utils/utils_file.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -14,7 +16,7 @@ class _SplashScreenState extends State<SplashScreen> {
     return  Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: const Text("Exception Handling",style: TextStyle(
+        title:  Text("نام".tr,style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold
         ),),
@@ -22,7 +24,11 @@ class _SplashScreenState extends State<SplashScreen> {
       ),
            floatingActionButton: FloatingActionButton(onPressed: (){
 
-             throw ServerExceptions("Bad Server");
+            // throw ServerExceptions("Bad Server");
+
+             UtilsClass.toastMessage("Arslan Tariq");
+             UtilsClass.toastMessageCenter("Arslan");
+
 
            },
            backgroundColor: Colors.blue,),
