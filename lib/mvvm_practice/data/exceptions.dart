@@ -21,10 +21,20 @@ class InternetExceptions extends AppExceptions{
 
 class TimeOutExceptions extends AppExceptions {
 
-  TimeOutExceptions([String? message]) : super (message, "Time OUt");
+  TimeOutExceptions([String? message]) : super (message, "");
 }
 
 class ServerExceptions extends AppExceptions {
 
-  ServerExceptions([String? message]) : super (message, "Server Error!");
+  ServerExceptions([String? message]) : super (message, "");
+}
+
+class FetchingDataExceptions extends AppExceptions {
+
+  FetchingDataExceptions([String? message]) : super (message, "Error While Fetching Data");
+}
+
+class InvalidURLException extends AppExceptions {
+
+  InvalidURLException([String? message]) : super (message, "Invalid URL");
 }

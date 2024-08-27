@@ -22,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
       ),
            floatingActionButton: FloatingActionButton(onPressed: (){
 
-             throw InternetExceptions("No Internet");
+             throw ServerExceptions("Bad Server");
 
            },
            backgroundColor: Colors.blue,),
