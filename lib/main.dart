@@ -10,6 +10,7 @@ import 'IntroStateManagement/home.dart';
 import 'ThemePractice/dart&lightTheme.dart';
 import 'exampleThree/testScreen.dart';
 import 'imagePickerPractice/homeScreen.dart';
+import 'mvvm_practice/resources/routes.dart';
 import 'mvvm_practice/view/splash_screen.dart';
 import 'navigations&routes/screen1.dart';
 import 'navigations&routes/screen2.dart';
@@ -29,7 +30,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return  const  GetMaterialApp(
+    return    GetMaterialApp(
       debugShowCheckedModeBanner: false,
       // locale: const Locale("en", "US"),
       // fallbackLocale: const Locale("en", "US"),
@@ -39,6 +40,11 @@ class _MyAppState extends State<MyApp> {
       //   GetPage(name: "/S1", page:() => const Screen1()),
       //   GetPage(name: "/S2", page:() => Screen2()),
       // ],
+
+      getPages:
+        AppRoutes.appRoutes(),
+
+
 
 
 
