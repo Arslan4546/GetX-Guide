@@ -7,12 +7,14 @@ class Translate extends Translations{
 
     "en_US" : {
 
-      "Name" : "Arslan Tariq"
+      "Name" : "Arslan Tariq",
+      "Internet Exception" : "Sorry! we are unable to load. \n Please check your internet connection"
     },
     "ur_PK" : {
 
       "نام" : "ارسلان طارق"
     },
+
 
   };
 

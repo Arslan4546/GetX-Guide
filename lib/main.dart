@@ -12,6 +12,7 @@ import 'exampleThree/testScreen.dart';
 import 'imagePickerPractice/homeScreen.dart';
 import 'mvvm_practice/resources/localization/translations.dart';
 import 'mvvm_practice/resources/routes.dart';
+import 'mvvm_practice/view/splashS.dart';
 import 'mvvm_practice/view/splash_screen.dart';
 import 'navigations&routes/screen1.dart';
 import 'navigations&routes/screen2.dart';
@@ -34,10 +35,10 @@ class _MyAppState extends State<MyApp> {
     return    GetMaterialApp(
       debugShowCheckedModeBanner: false,
       //locale: const Locale("en", "US"),
-      locale: const Locale("ur", "PK"),
+      locale: const Locale("en", "US"),
       fallbackLocale: const Locale("en", "US"),
       translations: Translate(),
-      home:   SplashScreen(),
+      home:   const SplashS(),
       // getPages: [
       //   GetPage(name: "/S1", page:() => const Screen1()),
       //   GetPage(name: "/S2", page:() => Screen2()),
