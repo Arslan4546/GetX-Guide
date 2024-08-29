@@ -8,7 +8,12 @@ class Translate extends Translations{
     "en_US" : {
 
       "Name" : "Arslan Tariq",
-      "Internet Exception" : "Sorry! we are unable to load. \n Please check your internet connection"
+      "Internet Exception" : "Sorry! we are unable to load. \n Please check your internet connection",
+      "Welcome" : "Welcome\n   Back! ",
+      "Login" : "Login Screen",
+      "EmailHint" : "Email",
+      "PasswordHint" : "Password",
+
     },
     "ur_PK" : {
 
